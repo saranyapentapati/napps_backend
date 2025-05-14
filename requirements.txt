@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 pydantic
-couchbase==4.1.8
+motor
