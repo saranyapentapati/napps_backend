@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 pydantic
-couchbase
+couchbase==4.1.8
