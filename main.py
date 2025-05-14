@@ -51,3 +51,7 @@ async def delete_item(item_id: str):
     if result.deleted_count == 1:
         return {"message": "Item deleted"}
     raise HTTPException(status_code=404, detail="Item not found")
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Inventory Manager API!"}
+
